@@ -1,0 +1,39 @@
+#Banner{
+    margin-top:100px;
+}
+
+.heading{
+    color:blueviolet;
+}
+
+.heading2{
+    font-weight: 550;
+}
+#btn{
+    background-color: rgb(159, 90, 223);
+}
+#btn:hover{
+    background-color: rgb(122, 18, 219);
+    transition:  0.5s all ease-in-out;
+}
+#btn:focus{
+    background-color: rgb(214, 24, 81);
+    transition:  0.5s all ease-in-out;
+}
+
+#btn1{
+    margin-left:25px;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+}
+#btn1:hover{
+    margin-left:25px;
+    color: white;
+    background: rgb(218, 69, 113);
+    transition:  0.5s all ease-in-out;
+}
+#btn1:focus{
+    margin-left:25px;
+    color: white;
+    background: rgb(78, 189, 93);
+    transition:  0.7s all ease-in-out;
+}

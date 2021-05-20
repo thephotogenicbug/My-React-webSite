@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  nav ul{
+    margin:0px;
+    padding:15px;
+    
+ 
+    
+  }
+  nav ul li{
+    display: inline;
+    padding:15px;
+   
+  }
+  
+  .pagelink{
+    color:black;
+    text-decoration: none;
+  }
+  .pagelink:hover{
+    color:indigo;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .pagelink:focus{
+    color: rgb(214, 24, 81);
+    transition: 0.3s all ease-in-out;
+  }
