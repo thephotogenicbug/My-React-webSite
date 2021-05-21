@@ -1,13 +1,15 @@
 import React from 'react';
 import {HashRouter, Route } from 'react-router-dom';
-import Header from './Components/Header';
+import Blogs from './Components/Blogs';
 import Home from './Components/Home';
+import Navbar from './Components/Navbar';
 function App() {
   return (
-    <div className="App">
+    <div className="App">    
       <HashRouter>
-      <Header/>
+        <Navbar/>
       <Route exact path="/" component={Home}/>
+      <Route exact path="/Blogs" component={Blogs}/>
       </HashRouter>
     </div>
   );

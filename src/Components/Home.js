@@ -13,7 +13,7 @@ const Home = () =>{
                     <h2 className="heading2">Development</h2>
                     <p className="banner-p">We Build Responsive website and web apps at affordable price</p>
                     <button className="btn text-white mt-2" id="btn">Learn More</button>
-                    <button className="btn mt-2" id="btn1">Contact US</button>
+                    <button className="btn mt-2" id="btn1">Contact Us</button>
                 </div>
                 <div className="col-md-6" >
                 <img src={banner} className="img-fluid"/>
@@ -30,8 +30,8 @@ const Home = () =>{
                     <p className="text-justify">
                      We provide expert web application and web design services to our clients.Free flow Design
                      offers variety of web design and development services, from creating responsive website designs
-                     to responsive web apps to building e-commerce and intranet experiences using latest and proven web
-                     technologies the appearance, usability and accessibility of your website is more important than ever,
+                     to responsive web apps to building e-commerce using latest and proven web technologies the appearance, 
+                     usability and accessibility of your website is more important than ever,
                      especially in an competitive market.
                     </p>
                     <p className="text-justify">
