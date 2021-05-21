@@ -23,10 +23,10 @@ const Home = () =>{
                 <div className="col-md-12 text-center">
                     <h3 className="">Services</h3>
                 </div>
-                <div className="col-md-4 mt-4">
+                <div className="col-md-6 mt-4">
                  <img src={service} className="img-fluid"/>   
                 </div>
-                <div className="col-md-8 mt-3">
+                <div className="col-md-6 mt-3">
                     <p className="text-justify">
                      We provide expert web application and web design services to our clients.Free flow Design
                      offers variety of web design and development services, from creating responsive website designs
