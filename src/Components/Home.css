@@ -4,13 +4,21 @@
 
 .heading{
     color:blueviolet;
+    
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.banner-p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .heading2{
     font-weight: 550;
 }
 #btn{
     background-color: rgb(159, 90, 223);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #btn:hover{
     background-color: rgb(122, 18, 219);
@@ -24,6 +32,7 @@
 #btn1{
     margin-left:25px;
     border: 1px solid rgba(0, 0, 0, 0.356);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #btn1:hover{
     margin-left:25px;
