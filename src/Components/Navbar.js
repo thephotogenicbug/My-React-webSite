@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom';
-import {FaBars, FaTimes, FaUniversity,} from 'react-icons/fa';
-import {Button} from './Button';
+import {FaBars, FaTimes} from 'react-icons/fa';
 import './Navbar.css';
 import {IconContext, icons} from 'react-icons/lib';
 
@@ -46,13 +45,18 @@ function Navbar() {
                    </Link>
                 </li>
                 <li className="nav-item">
-                   <Link to='/' className='nav-links' onClick={closeMobileMenu}> 
+                   <Link to='/blogs' className='nav-links' onClick={closeMobileMenu}> 
                       Blogs
                    </Link>
                 </li>
                 <li className="nav-item">
-                   <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                   <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
                        Portfolio
+                   </Link>
+                </li> 
+                <li className="nav-item">
+                   <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                       Contact Us
                    </Link>
                 </li> 
             </ul>
