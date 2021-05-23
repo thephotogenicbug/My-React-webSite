@@ -47,6 +47,22 @@ h1,h2,h3,h4,h5{
     transition:  0.7s all ease-in-out;
 }
 
+#service{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+   
+}
+ li{
+    list-style: none;
+}
+.service-list{
+    font-weight: 600;
+}
+#cards{
+    font-weight: 600;
+    margin:1%;
+    margin-left:100px;
+}
 .container {
     padding-right:15px;
     padding-left:15px;

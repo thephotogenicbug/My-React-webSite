@@ -1,6 +1,5 @@
 .navbar {
     background: #6C63FF;
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,8 +12,8 @@
   .navbar-container {
     display: flex;
     justify-content: space-between;
-    height: 70px;
-    margin-top:-10px;
+    height: 68px;
+    margin-top: -10px;
   }
   
   .container {
@@ -83,6 +82,7 @@
   .menu-icon {
     display: none;
   }
+
   
   @media screen and (max-width: 960px) {
     .NavbarItems {
